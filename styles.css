@@ -1,0 +1,98 @@
+/* 
+selecter{
+
+    property : css value;
+}
+*/
+/* CSS color -> rgb(r,g,b)
+             -> rgba(r,g,b,a) || a -> stands for alpha value
+             -> hex same as rgb but it takes value in Hexa decimal
+             -> hexa || additionally alpha value is attached
+             -> #rrggbb -> it also a new value
+
+*/
+
+
+  /* #text {  */
+    /* The CSS property related to text is always applied on content not on container. But other Property 
+    like bg-color width height etc is applied on container */
+    /* background-color: red;  */
+    /* The element which have particular height and width we can attach background with it*/
+
+
+    /* background-image: url('image/map.jpg'),url('image/Self_image.jpg'); */
+     /* background-repeat: no-repeat;  */
+     /* Bydefault background-repeat: takes "repeat" value */
+    /* background-position: center center;  */
+     /* ba
+    <div id="border">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut blanditiis animi sequi voluptas! Maxime, dignissimos placeat at doloribus laborum consequatur.</p>
+    </div>ckground-position: x-axis y-axis  */
+
+    /* background-position:left top,right bottom; */
+    /* background-size: 100% 100%; */
+
+    /* background-size: cover;      */
+    /* We use contain when image and contain ratio are same other wise contain value organise background image properly without cutting
+    distordiing but it will not cover totally
+    */
+    /* background-color: yellow; */
+    /* background-attachment:fixed; */
+     /* Bydefault bg-attachment is scroll type  */
+
+ /* }*/
+
+ /* #border{ */
+    /* border-width: 2px; */
+    /* border-style: solid dashed dotted groove; */
+    /* border-style: solid; */
+    /* clockwise rotation is possibble */
+    /* border-style: solid/dashed/dotted/double/groove/outset/inset/ridge/none*/
+    /* border-color: red black; */
+    /* border-radius: 5px 2px 7px 8px; */
+    /* border-radius: top+bottom right+left; */
+    /* border-radius: top right+left bottom; */
+    /* border-radius: top right bottom left; */
+    /* border-width: 3px; */
+    /* border-top-color: yellow; */
+    /* border-top/bottom...-color/radius/..: CSS value */
+
+ /* } */
+ body{
+  border: 2px solid green;
+  height: 505px;
+  padding: 30px;
+  /* margin: 40px; */
+
+ }
+
+ #div1
+ /* This div tag takes height and width with respect to body tag if given in percentage */
+ {
+  /* if height and width is provided in other absolute unit than it is measured with respect to viewport screen or html tag */
+  /* If we give height and width to any container in "percentage" than it will change it's configuration in accordance with respect to it's
+  parent div   */
+  background-color: red;
+  border: 2px solid black;
+  /* margin-top: 5px; */
+  /* height: 100%; */
+  /* width: 500px; */
+  /* max-height: 70%; */
+  /* max-width: 9px; */
+  /* min-height: ; */
+  /* min-width: ; */
+  /* Padding:- gap between border/container border and content. it cannot be negative */
+  /* margin:- gap between two individual html element it can be negative  */
+  padding: 30px;
+  /* margin: 30px; */
+margin-bottom: 40px;
+ }
+/* If we assign height and width then it will be assigned to CONTENT only*/
+
+#colsp{
+    background-color: blue;
+    border:5px dotted black;
+    padding: 30px;
+    margin-top: 20px;
+
+} 
